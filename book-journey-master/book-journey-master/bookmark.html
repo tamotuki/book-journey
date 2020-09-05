@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>本タビ</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <link rel="stylesheet" href="css/humberger.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <header class="header">
+          <div class="cp_contents">
+            <h1>本タビ</h1>
+          </div>
+          <button class="mobile-menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+
+        <!-- ---------------------- bookmark ---------------------- -->
+
+        <div class="bookmark-container">
+          <div class="bookmark-items">
+            <a href="#"
+              ><img src="images/51Mj8x5RpZL._SX354_BO1,204,203,200_.jpg" alt=""
+            /></a>
+          </div>
+          <div class="bookmark-items">
+            <a href="#"
+              ><img src="images/514daH6PERL._SX350_BO1,204,203,200_.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./Toppage.html">
+              <span class="main-title">Home</span>
+              <span class="sub-title">ホームページ </span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./search.html">
+              <span class="main-title">Search</span>
+              <span class="sub-title">検索</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./booktrip.html">
+              <span class="main-title">Send Book</span>
+              <span class="sub-title">本を旅に出す</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./category.html">
+              <span class="main-title">Category</span>
+              <span class="sub-title">カテゴリー検索</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./bookmark.html">
+              <span class="main-title">Bookmark</span>
+              <span class="sub-title">ブックマーク</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./mypage.html">
+              <span class="main-title">My Page</span>
+              <span class="sub-title">マイページ </span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./rentalbook.html">
+              <span class="main-title">Library</span>
+              <span class="sub-title">借りている本一覧</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./todaysbook.html">
+              <span class="main-title">Today's Book</span>
+              <span class="sub-title">今日の一冊</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ---------------------- footer ---------------------- -->
+      <div class="footer">
+        <p>2020~2021 cpyright@株式会社湯たんぽ(仮)</p>
+      </div>
+    </div>
+    <style>
+      .footer {
+        margin-top: 600px;
+      }
+      @media screen and (max-width: 896px) {
+        .footer {
+          margin-top: 0px;
+        }
+        .bookmark-container {
+          width: auto;
+          height: 200px;
+          margin-top: 20%;
+          padding-top: 0px;
+          justify-content: center;
+        }
+        .bookmark-items {
+          height: 100px;
+          margin-left: 10%;
+          position: relative;
+          top: -28%;
+        }
+        .bookmark-items > a > img {
+          height: 100px;
+        }
+        /* .footer {
+        margin-top: 800px;
+    } */
+      }
+    </style>
+    <script src="js/main.js"></script>
+  </body>
+</html>

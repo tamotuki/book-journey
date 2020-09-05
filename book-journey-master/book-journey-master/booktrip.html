@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>本タビ</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/humberger.css" />
+  </head>
+  <body>
+    <!-- --------------------- header --------------------- -->
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <header class="header">
+          <div class="cp_contents">
+            <h1>本タビ</h1>
+          </div>
+          <button class="mobile-menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </header>
+        <!-- --------------------- booktrip --------------------- -->
+        <div class="booktrip-container">
+          <div class="booktrip-isbn">
+            <p>ISBNコード　4901121172880</p>
+          </div>
+          <div class="booktrip-book-img">
+            <img src="images/51Mj8x5RpZL._SX354_BO1,204,203,200_.jpg" alt="" />
+          </div>
+          <div class="booktrip-section">
+            <div class="section-title">
+              <h1>Git入門</h1>
+            </div>
+          </div>
+          <div class="booktrip-writer">
+            <p>著者/湊川あい</p>
+          </div>
+          <div class="booktrip-section">
+            <div class="section-title">
+              <h1>概要</h1>
+            </div>
+          </div>
+          <div class="booktrip-about">
+            <p>
+              初学者が必ずと言っていいほど詰まる<br />
+              Gitについて詳しく説明してくれる本です。<br />
+              読み終わる頃にはGitが一人前に使えているこ<br />
+              と間違いなし！
+            </p>
+          </div>
+          <div class="booktrip-section">
+            <!-- --------------------- section-title --------------------- -->
+
+            <div class="section-title">
+              <h1>コメント</h1>
+            </div>
+          </div>
+          <div class="booktrip-text">
+            <textarea placeholder="コメントを入力してください"> </textarea>
+          </div>
+          <div class="booktrip-section">
+            <div class="section-title">
+              <h1>カテゴリー</h1>
+            </div>
+          </div>
+          <div class="cp_ipselect cp_sl01">
+            <select required>
+              <option value="" hidden>Choose</option>
+              <option value="1">cat</option>
+              <option value="2">dog</option>
+              <option value="3">rabbit</option>
+              <option value="4">squirrel</option>
+            </select>
+          </div>
+          <div class="booktrip-section">
+            <div class="section-title">
+              <h1>旅行期間</h1>
+            </div>
+          </div>
+          <div class="cp_ipselect cp_sl01">
+            <select required>
+              <option value="" hidden>Choose</option>
+              <option value="1">2週間</option>
+              <option value="2">1ヶ月</option>
+              <option value="3">無期限</option>
+            </select>
+          </div>
+          <div class="booktrip-section">
+            <div class="section-title">
+              <h1>配送方法の選択</h1>
+            </div>
+          </div>
+          <div class="cp_ipselect cp_sl01">
+            <select required>
+              <option value="" hidden>Choose</option>
+              <option value="1">着払い</option>
+              <option value="2">出品者負担</option>
+            </select>
+          </div>
+          <div class="booktrip-go">
+            <a href="#"><p>この本を旅に出す</p></a>
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./Toppage.html">
+              <span class="main-title">Home</span>
+              <span class="sub-title">ホームページ </span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./search.html">
+              <span class="main-title">Search</span>
+              <span class="sub-title">検索</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./booktrip.html">
+              <span class="main-title">Send Book</span>
+              <span class="sub-title">本を旅に出す</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./category.html">
+              <span class="main-title">Category</span>
+              <span class="sub-title">カテゴリー検索</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./bookmark.html">
+              <span class="main-title">Bookmark</span>
+              <span class="sub-title">ブックマーク</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./mypage.html">
+              <span class="main-title">My Page</span>
+              <span class="sub-title">マイページ </span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./rentalbook.html">
+              <span class="main-title">Library</span>
+              <span class="sub-title">借りている本一覧</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="./todaysbook.html">
+              <span class="main-title">Today's Book</span>
+              <span class="sub-title">今日の一冊</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- ---------------------- footer ---------------------- -->
+      <div class="footer">
+        <p>2020~2021 cpyright@株式会社湯たんぽ(仮)</p>
+      </div>
+    </div>
+
+    <style>
+      @media screen and (max-width: 896px) {
+        .booktrip-isbn {
+          width: 80%;
+          height: 80px;
+          font-size: 20px;
+        }
+        .booktrip-book-img {
+          width: 90%;
+          height: 300px;
+        }
+        .booktrip-book-img > img {
+          display: block;
+          width: 80%;
+          margin-left: 0;
+          margin: 0 auto;
+          height: 100%;
+        }
+        .booktrip-section {
+          width: 100%;
+          height: 30px;
+          text-align: center;
+        }
+        .section-title {
+          margin-left: 0;
+        }
+        .booktrip-section > h1 {
+          width: 100%;
+        }
+        .booktrip-writer {
+          width: 80%;
+          height: 40px;
+          text-align: center;
+        }
+        .booktrip-writer > p,
+        .booktrip-about > p {
+          padding-left: 0;
+          padding-top: 0;
+        }
+        .booktrip-writer > p {
+          height: 40px;
+          line-height: 40px;
+        }
+        .booktrip-about,
+        .booktrip-text {
+          height: 160px;
+          width: 80%;
+        }
+        .booktrip-about > p {
+          height: 80px;
+          font-size: 15px;
+        }
+
+        .cp_ipselect.cp_sl01 {
+          width: 85%;
+        }
+        .booktrip-go {
+          width: 70%;
+        }
+        .booktrip-go > a > p {
+          padding-top: 0px;
+          height: 60px;
+          line-height: 60px;
+        }
+      }
+    </style>
+    <script src="js/main.js"></script>
+  </body>
+</html>
